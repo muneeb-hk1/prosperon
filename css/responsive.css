@@ -1,0 +1,96 @@
+@media (max-width: 992px){
+     .form-box{
+        display: none;
+    }
+    .navbar-nav{
+        width: 95% !important;
+    }
+    .five-cols {
+    margin-top: 110px;
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 110px;
+}
+
+.row.five-cols > .col {
+    flex: 1 1 20%;
+    max-width: 40%;
+    text-align: center;
+}
+.background {
+    padding: 60px;
+}
+}
+
+@media (max-width: 768px){
+   
+    
+    .navbar .navbar-nav .nav-link{
+        font-size: 20px !important;
+    }
+    .cars1 .item .con .book{
+        display: none !important;
+    }
+    .cars1 .item .con{
+        top: -40px;
+    }
+
+    .float{
+        left:85% !important;
+    }
+    .float2{
+        left:85% !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+ .background .counter{
+    padding: 40px;
+ }
+     .row.five-cols > .col {
+        flex: 1 1 50%;
+        max-width: 70%;
+        text-align: center;
+    }
+    .background .section-subtitle {
+    font-size: 35px;
+}
+    .five-cols {
+        margin-top: 60px;
+        display: flex
+;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 90px;
+    }
+     .float{
+        left:80% !important;
+    }
+    .float2{
+        left:80% !important;
+    }
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .second-footer .widget-area .widget {
+    padding: 0px 0 30px !important;
+}
+}
+
+
+@media (max-width: 494px) {
+.background .section-title{
+    font-size: 18px;
+}
+.background .section-subtitle {
+    font-size: 34px;
+}
+
+    .background .counter {
+        padding: 20px 20px 50px 20px;
+    }
+}
